@@ -1,20 +1,25 @@
 {
-  "name": "starter-cli",
+  "name": "any-starter-cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "用于快速初始化不同项目模块的脚手架",
+  "bin": {
+    "starter": "bin/starter",
+    "starter-list": "bin/starter-list",
+    "starter-init": "bin/starter-init"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["starter", "cli", "starter-cli", "template"],
+  "author": "Archer <502431556@qq.com>",
   "license": "ISC",
   "devDependencies": {
-    "chalk": "^5.0.1",
+    "chalk": "^4.1.2",
+    "cli-table": "^0.3.11",
     "commander": "^9.3.0",
     "download-git-repo": "^3.0.2",
     "inquirer": "^8.2.4",
-    "log-symbols": "^5.1.0",
-    "ora": "^6.1.0"
+    "log-symbols": "^4.0.0",
+    "ora": "^3.2.0"
   }
 }

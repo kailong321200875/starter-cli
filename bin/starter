@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+const program = require('commander')
+const pak = require('../package.json')
+
+program.usage('<command>')
+
+program.version(pak.version)
+
+program
+  .command('list')
+  .description('List the templateList')
+  .action(() => {
+    require('../commands/list')
+  })
+
+program
+  .command('init')
+  .description('Init a project')
+  .action(() => {
+    require('../commands/init')
+  })
+
+program.parse(process.argv)
