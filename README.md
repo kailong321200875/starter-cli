@@ -19,3 +19,7 @@ pnpm i any-starter-cli -g
 starter -h
 
 ```
+
+# 相关文章
+
+[搭建快速启动不同模板的前端脚手架](https://juejin.cn/post/7107620238635565087/)
