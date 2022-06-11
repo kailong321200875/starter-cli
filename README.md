@@ -9,14 +9,35 @@
 ## 安装
 
 ```shell
-pnpm i any-starter-cli -g
+pnpm add any-starter-cli -g
 
 ```
 
-## 查看命令
+## 帮助命令
 
 ```shell
 starter -h
+
+```
+
+### 查看已知模板列表
+
+```shell
+starter list
+
+```
+
+### 初始化项目模板
+
+```shell
+starter init
+
+```
+
+# 更新
+
+```shell
+pnpm add -g any-starter-cli
 
 ```
 
