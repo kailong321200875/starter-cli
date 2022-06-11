@@ -1,11 +1,9 @@
 {
   "name": "any-starter-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "用于快速初始化不同项目模块的脚手架",
   "bin": {
-    "starter": "bin/starter",
-    "starter-list": "bin/starter-list",
-    "starter-init": "bin/starter-init"
+    "starter": "bin/starter"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
