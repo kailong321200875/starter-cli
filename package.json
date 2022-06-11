@@ -6,8 +6,13 @@
     "starter": "bin/starter"
   },
   "scripts": {
+    "npm:up": "npx npm-check-updates",
+    "clean": "npx rimraf node_modules",
+    "clean:cache": "npx rimraf node_modules/.cache",
+    "lint:format": "prettier --write --loglevel warn \"**/*.{js,ts,json,tsx,css,less,vue,html,md}\"",
+    "lint:lint-staged": "lint-staged -c ./.husky/lintstagedrc.js",
     "release": "bumpp --commit \"release: release v%s\" --push --tag && npm publish",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "husky install"
   },
   "keywords": [
     "starter",
@@ -27,6 +32,11 @@
     "ora": "^3.2.0"
   },
   "devDependencies": {
-    "bumpp": "^7.1.1"
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "bumpp": "^7.1.1",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.6.2"
   }
 }
