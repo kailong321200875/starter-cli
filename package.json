@@ -6,9 +6,15 @@
     "starter": "bin/starter"
   },
   "scripts": {
+    "release": "bumpp --commit \"release: release v%s\" --push --tag && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["starter", "cli", "starter-cli", "template"],
+  "keywords": [
+    "starter",
+    "cli",
+    "starter-cli",
+    "template"
+  ],
   "author": "Archer <502431556@qq.com>",
   "license": "ISC",
   "dependencies": {
@@ -19,5 +25,8 @@
     "inquirer": "^8.2.4",
     "log-symbols": "^4.0.0",
     "ora": "^3.2.0"
+  },
+  "devDependencies": {
+    "bumpp": "^7.1.1"
   }
 }
