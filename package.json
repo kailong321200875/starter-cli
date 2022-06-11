@@ -1,6 +1,6 @@
 {
   "name": "any-starter-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "用于快速初始化不同项目模块的脚手架",
   "bin": {
     "starter": "bin/starter",
@@ -13,7 +13,7 @@
   "keywords": ["starter", "cli", "starter-cli", "template"],
   "author": "Archer <502431556@qq.com>",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chalk": "^4.1.2",
     "cli-table": "^0.3.11",
     "commander": "^9.3.0",
