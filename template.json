@@ -1,4 +1,5 @@
 {
   "vue-element-plus-admin": "https://github.com:kailong321200875/vue-element-plus-admin#master",
+  "vue-element-plus-admin-template": "https://github.com:kailong321200875/vue-element-plus-admin#template",
   "webpack-multi-page-cli": "https://github.com:kailong321200875/webpack-multi-page-cli#master"
 }
