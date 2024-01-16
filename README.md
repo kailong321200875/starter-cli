@@ -1,4 +1,4 @@
-# any-starter-cli
+# @design-view/starter-cli
 
 用于快速初始化不同项目模块的脚手架
 
@@ -7,7 +7,7 @@
 ## 全局安装
 
 ```shell
-pnpm add any-starter-cli -g
+pnpm add @design-view/starter-cli -g
 
 ```
 
@@ -39,7 +39,7 @@ starter init
 推荐还是在 `template.json` 中去手动添加新增模板，之后重新发布到 npm 上，最后执行以下命令来更新全局脚手架，以保证获得最新的模板列表。
 
 ```shell
-pnpm add any-starter-cli -g
+pnpm add @design-view/starter-cli -g
 
 ```
 
