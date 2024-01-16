@@ -29,7 +29,7 @@
     "download-git-repo": "^3.0.2",
     "inquirer": "^9.2.12",
     "log-symbols": "^6.0.0",
-    "ora": "^8.0.1"
+    "ora": "^3.2.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
