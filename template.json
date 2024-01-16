@@ -1,6 +1,6 @@
 {
-  "starter-ts": "https://github.com:kailong321200875/starter-ts#master",
-  "vue-element-plus-admin": "https://github.com:kailong321200875/vue-element-plus-admin#master",
-  "vue-element-plus-admin-mini": "https://github.com:kailong321200875/vue-element-plus-admin#mini",
-  "webpack-multi-page-cli": "https://github.com:kailong321200875/webpack-multi-page-cli#master"
+  "starter-ts(ts快速模板)": "https://github.com:kailong321200875/starter-ts#master",
+  "vue-element-plus-admin(后台集成方案)": "https://github.com:kailong321200875/vue-element-plus-admin#master",
+  "vue-element-plus-admin-mini(后台集成方案mini版)": "https://github.com:kailong321200875/vue-element-plus-admin#mini",
+  "webpack-multi-page-cli(webpack多页脚手架)": "https://github.com:kailong321200875/webpack-multi-page-cli#master"
 }
