@@ -1,6 +1,6 @@
 {
   "name": "@design-view/starter-cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "用于快速初始化不同项目模块的脚手架",
   "bin": {
     "starter": "bin/starter"
